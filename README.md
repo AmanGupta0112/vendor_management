@@ -11,9 +11,10 @@ The Vendor Management API is a RESTful web service for managing vendors and purc
 
         cd vms
 3. Install dependencies using pip:
-
+        python3 -m venv venv
+        
         pip install -r requirements.txt
-4. Apply migrations to set up the database:
+5. Apply migrations to set up the database:
 
         python manage.py migrate
 
